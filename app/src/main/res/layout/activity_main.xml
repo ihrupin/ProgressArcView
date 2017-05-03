@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="#0b3356"
+    android:background="#2c2b2d"
     tools:context="com.hrupin.samples.roundanimation.MainActivity">
 
     <com.hrupin.samples.roundanimation.ProgressArcView

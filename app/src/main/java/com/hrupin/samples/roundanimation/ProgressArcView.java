@@ -23,11 +23,11 @@ public class ProgressArcView extends View {
     private RectF unfinishedOuterRect = new RectF();
     private float progress = 0;
     private int max = 1000;
-    private int finishedStrokeColor = Color.parseColor("#ffffff");
-    private int unfinishedStrokeColor = Color.parseColor("#4c008cfd");
+    private int finishedStrokeColor = Color.parseColor("#ff0000");
+    private int unfinishedStrokeColor = Color.parseColor("#4cff0000");
     private int startingDegree = -90;
     private float strokeWidth = dp2px(getResources(), 14.5f);
-    private int innerBackgroundColor = Color.parseColor("#008cfd");
+    private int innerBackgroundColor = Color.parseColor("#ffffff");
 
     private int minSize = (int) dp2px(getResources(), 270);
 
